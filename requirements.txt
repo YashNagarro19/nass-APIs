@@ -2,3 +2,5 @@ FastAPI
 uvicorn
 httptools
 uvloop
+azure-cosmos
+azure-identity
