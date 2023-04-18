@@ -1,0 +1,70 @@
+{
+   "questionList":
+   [
+      {
+         "id":1,
+         "questionId":1,
+         "question":"User Role?",
+         "optionA":"A1",
+         "nextQuestionA":"2",
+         "optionB":"B1",
+         "nextQuestionB":"3",
+         "optionC":"C1",
+         "nextQuestionC":"4",
+         "optionD":"D1",
+         "nextQuestionD":"5"
+      },
+      {
+         "id":2,
+         "questionId":2,
+         "question":"User Designation?",
+         "optionA":"A2",
+         "nextQuestionA":"1",
+         "optionB":"B2",
+         "nextQuestionB":"3",
+         "optionC":"C2",
+         "nextQuestionC":"4",
+         "optionD":"D2",
+         "nextQuestionD":"5"
+      },
+      {
+         "id":4,
+         "questionId":4,
+         "question":"Organization Department?",
+         "optionA":"A4",
+         "nextQuestionA":"2",
+         "optionB":"B4",
+         "nextQuestionB":"3",
+         "optionC":"C4",
+         "nextQuestionC":"1",
+         "optionD":"D4",
+         "nextQuestionD":"5"
+      },
+      {
+         "id":3,
+         "questionId":3,
+         "question":"Organization name?",
+         "optionA":"A3",
+         "nextQuestionA":"2",
+         "optionB":"B3",
+         "nextQuestionB":"1",
+         "optionC":"C3",
+         "nextQuestionC":"4",
+         "optionD":"D3",
+         "nextQuestionD":"5"
+      },
+      {
+         "id":5,
+         "questionId":5,
+         "question":"Org Address?",
+         "optionA":"A5",
+         "nextQuestionA":"2",
+         "optionB":"B5",
+         "nextQuestionB":"3",
+         "optionC":"C5",
+         "nextQuestionC":"4",
+         "optionD":"D5",
+         "nextQuestionD":"1"
+      }
+   ]
+ }
