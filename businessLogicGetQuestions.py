@@ -9,7 +9,7 @@ class GetQuestions:
     
     def getQuestion():
         try:
-            with open("common\questionList.txt", "r") as json_file:
+            with open("..\common\questionList.txt", "r") as json_file:
                 stringResponse  = json_file.read()
                 response = json.loads(stringResponse)
             return response
