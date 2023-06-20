@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from businessLogicGetQuestions import GetQuestions as gq
 from http import HTTPStatus
 import asyncio
@@ -17,9 +17,11 @@ def getQuestions():
          __json_date = str({})
          raise Exception(HTTPStatus.BAD_REQUEST.value)
 
-@app.get("/postQuestions")
-def getQuestions():
-    return gq.businessLogicGetQuetions()
+@app.post("/postQuestions")
+async def postQuestions(request: Request):
+    json = await request.json()
+    print(json)
+    return
 
 @app.get("/displayResult")
 def getQuestions():
