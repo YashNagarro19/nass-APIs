@@ -4,67 +4,110 @@
       {
          "id":1,
          "questionId":1,
-         "question":"User Role?",
-         "optionA":"A1",
-         "nextQuestionA":"2",
-         "optionB":"B1",
-         "nextQuestionB":"3",
-         "optionC":"C1",
-         "nextQuestionC":"4",
-         "optionD":"D1",
-         "nextQuestionD":"5"
+         "question":"Does your APIM possess full API Lifecycle Management? This includes everything from designing, publishing, documenting, securing, and analyzing APIs.",
+         "optionA":"Yes",
+         "optionB":"No",
+         "optionC":"May Be",
+         "optionD":"Don't Care"
       },
       {
          "id":2,
          "questionId":2,
-         "question":"User Designation?",
-         "optionA":"A2",
-         "nextQuestionA":"1",
-         "optionB":"B2",
-         "nextQuestionB":"3",
-         "optionC":"C2",
-         "nextQuestionC":"4",
-         "optionD":"D2",
-         "nextQuestionD":"5"
-      },
-      {
-         "id":4,
-         "questionId":4,
-         "question":"Organization Department?",
-         "optionA":"A4",
-         "nextQuestionA":"2",
-         "optionB":"B4",
-         "nextQuestionB":"3",
-         "optionC":"C4",
-         "nextQuestionC":"1",
-         "optionD":"D4",
-         "nextQuestionD":"5"
+         "question":"Does your APIM support developers in API development? That is to say does it have features that make API development easy?",
+         "optionA":"Yes",
+         "optionB":"No",
+         "optionC":"May Be",
+         "optionD":"Don't Care"
       },
       {
          "id":3,
          "questionId":3,
-         "question":"Organization name?",
-         "optionA":"A3",
-         "nextQuestionA":"2",
-         "optionB":"B3",
-         "nextQuestionB":"1",
-         "optionC":"C3",
-         "nextQuestionC":"4",
-         "optionD":"D3",
-         "nextQuestionD":"5"
+         "question":"Does your existing platform support automatic documentation like creation of swagger?",
+         "optionA":"Yes",
+         "optionB":"No",
+         "optionC":"May Be",
+         "optionD":"Don't Care"
+      },
+      {
+         "id":4,
+         "questionId":4,
+         "question":"Does your platform provides UI for API design?",
+         "optionA":"Yes",
+         "optionB":"No",
+         "optionC":"May Be",
+         "optionD":"Don't Care"
       },
       {
          "id":5,
          "questionId":5,
-         "question":"Org Address?",
-         "optionA":"A5",
-         "nextQuestionA":"2",
-         "optionB":"B5",
-         "nextQuestionB":"3",
-         "optionC":"C5",
-         "nextQuestionC":"4",
-         "optionD":"D5",
-         "nextQuestionD":"1"
+         "question":"Does your platform provides suggestions for better API design?",
+         "optionA":"Yes",
+         "optionB":"No",
+         "optionC":"May Be",
+         "optionD":"Don't Care"
+      },
+      {
+         "id":6,
+         "questionId":6,
+         "question":"Does your platform support Devops Integration? Or is it possible to deploy APIs on your platform through Devops?",
+         "optionA":"Yes",
+         "optionB":"No",
+         "optionC":"May Be",
+         "optionD":"Don't Care"
+      },
+      {
+         "id":7,
+         "questionId":7,
+         "question":"Does your platform provides Analytical Capabilities to track various parameters across API lifecycle?",
+         "optionA":"Yes",
+         "optionB":"No",
+         "optionC":"May Be",
+         "optionD":"Don't Care"
+      },
+      {
+         "id":8,
+         "questionId":8,
+         "question":"Does your platform provide User based Access Control?",
+         "optionA":"Yes",
+         "optionB":"No",
+         "optionC":"May Be",
+         "optionD":"Don't Care"
+      },
+      {
+         "id":9,
+         "questionId":9,
+         "question":"Does your APIM provides policies or configurations to change the behaviour of APIs within least possible time?",
+         "optionA":"Yes",
+         "optionB":"No",
+         "optionC":"May Be",
+         "optionD":"Don't Care"
+      },
+      {
+         "id":10,
+         "questionId":10,
+         "question":"Does your platform provides option for separate onboarding of provider, developers and consumers?",
+         "optionA":"Yes",
+         "optionB":"No",
+         "optionC":"May Be",
+         "optionD":"Don't Care"
+      },
+      {
+         "id":11,
+         "questionId":11,
+         "question":"Does your platform support API logging?",
+         "optionA":"Yes",
+         "optionB":"No",
+         "optionC":"May Be",
+         "optionD":"Don't Care"
+      },
+      {
+         "id":12,
+         "questionId":12,
+         "question":"Does your APIM provides developer portal?",
+         "optionA":"Yes",
+         "optionB":"No",
+         "optionC":"May Be",
+         "optionD":"Don't Care"
       }
    ]
  }
