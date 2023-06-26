@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'nassAms'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_60D2A294144345B6952E08D56E4382D7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ACDF3631C47F4A87A618ECC700F13C9F }}
