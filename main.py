@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request
+from fastapi.responses import JSONResponse
 from businessLogicGetQuestions import GetQuestions as gq
 from http import HTTPStatus
-import asyncio
 import logging
 
 app = FastAPI()
@@ -21,7 +21,7 @@ def getQuestions():
 async def postQuestions(request: Request):
     json = await request.json()
     print(json)
-    return
+    return JSONResponse(content={"status":"success"})
 
 @app.get("/displayResult")
 def getQuestions():
