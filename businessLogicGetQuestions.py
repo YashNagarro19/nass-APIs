@@ -14,7 +14,6 @@ class GetQuestions:
                 response = json.loads(stringResponse)
             return response
         except Exception as ex:
-            logging.error("Internal Server Error: business file ka " + str(ex))
-            response = str("business file ka internal server")
+            logging.error("Internal Server Error: " + str(ex))
             response.status_code = HTTPStatus.INTERNAL_SERVER_ERROR.value
             return response
