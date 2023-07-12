@@ -7,7 +7,7 @@ class GetQuestions:
     def __init__(self):
        pass
     
-    def getQuestion():
+    def getQuestions():
         try:
             with open("common/questionList.txt", "r") as json_file:
                 stringResponse  = json_file.read()

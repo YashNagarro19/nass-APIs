@@ -2,3 +2,5 @@ FastAPI
 uvicorn
 httptools
 uvloop
+sqlalchemy
+psycopg2
