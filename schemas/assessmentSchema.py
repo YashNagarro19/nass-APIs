@@ -6,8 +6,13 @@ class QuestionAnswer(BaseModel):
     answerId: str
 
 class AssessmentQuestionsAnswers(BaseModel):
+    clientName: str
+    description: str
+    geography: str
+    domain: str
+    companySize:int
     userId: int
-    questionAnswers: List[QuestionAnswer]
+    answerList: List[QuestionAnswer]
 
 # class AssessmentSubmission(BaseModel):
 #     userId: int

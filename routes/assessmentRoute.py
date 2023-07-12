@@ -32,7 +32,7 @@ def getQuestions(skip: int = 0, limit: int = 100):
 @router.post("/postQuestions")
 async def postQuestions(request: AssessmentQuestionsAnswers, db: Session = Depends(get_db)):
     print(request)
-    for item in request.questionAnswers:
+    for item in request.answerList:
         create_record(db=db, userId=request.userId, questionAnswer=item)
     return Response(
         code=200,
