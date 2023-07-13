@@ -28,11 +28,16 @@ async def postQuestions(request: AssessmentSubmission):
     #     create_record(db=db, userId=request.userId, questionAnswer=item)
     recommendedPlatform, platformsList = platformAssessment(answerList=request.answerList)
     
-    return Response(
-        code=200,
-        status="success",
-        result=AssessmentSubmissionResponse(
-            recommendedPlatform=recommendedPlatform,
-            platforms=platformsList
-        )
+    # return Response(
+    #     code=200,
+    #     status="success",
+    #     result=AssessmentSubmissionResponse(
+    #         recommendedPlatform=recommendedPlatform,
+    #         platforms=platformsList
+    #     )
+    # )
+
+    return AssessmentSubmissionResponse(
+        recommendedPlatform=recommendedPlatform,
+        platforms=platformsList
     )
