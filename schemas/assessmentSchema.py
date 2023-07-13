@@ -1,23 +1,34 @@
-from typing import List
+from typing import Optional, List
 from pydantic import BaseModel
 
 class QuestionAnswer(BaseModel):
-    questionId: str
-    answerId: str
+    questionId: Optional[int]
+    answerId: Optional[str]
+    answerValue: str
+    tag: str
+    pillar: str
+    detail: Optional[str]
 
-class AssessmentQuestionsAnswers(BaseModel):
-    clientName: str
-    description: str
-    geography: str
-    domain: str
-    companySize:int
-    userId: int
+class AssessmentSubmission(BaseModel):
+    clientName: Optional[str]
+    description: Optional[str]
+    geography: Optional[str]
+    domain: Optional[str]
+    companySize:Optional[int]
+    userId: Optional[int]
     answerList: List[QuestionAnswer]
 
-# class AssessmentSubmission(BaseModel):
-#     userId: int
-#     questionId: str
-#     answerId: str
+class PlatformReport(BaseModel):
+    platform: str
+    score: int
+    organization: int
+    security: int
+    governance: int
+    strategy: int
+    cost: int
 
-#     class Config:
-#         orm_mode = True
+class AssessmentSubmissionResponse(BaseModel):
+    currentState: Optional[str]
+    futureState: Optional[str]
+    recommendedPlatform: Optional[str]
+    platforms: List[PlatformReport]

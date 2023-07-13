@@ -1,0 +1,232 @@
+{
+	"questionList": [
+		 {
+            "id": 1,
+            "questionId": 1,
+            "tag": "API lifecycle Management",
+            "pillar": "Organisation",
+            "question": "Do you currently use an API Management tool/platform? If yes choose from the list below. If your platform is not shown please mention in the text box provided",
+            "optionA": "Azure",
+            "optionB": "Apigee",
+            "optionC": "WSO2",
+            "optionD": "Layer 7",
+            "optionE": "Kong",
+            "optionF": "IBM API Connect",
+            "optionG": "3 Scale",
+            "optionH": "Rapid API",
+            "optionI": "Mulesoft",
+            "optionJ": "Other-$TextArea$",
+            "optionK": "AWS API Gateway",
+            "toolTip": "API Lifecycle Management involves the planning, design, development, deployment, maintenance, and retirement of APIs throughout their entire lifespan."
+        },
+        {
+            "id": 2,
+            "questionId": 2,
+             "tag": "API lifecycle Management",
+            "pillar": "Organisation",
+            "question": "Do you currently follow API lifecycle management in your projects?",
+            "optionA": "Using",
+            "optionB": "Want to use",
+            "optionC": "Don’t want to use",
+            "toolTip": "API lifecycle management refers to the processes and practices involved in managing an API throughout its entire lifespan, from design and development to deployment, maintenance, and retirement."
+        },
+        {
+            "id": 3,
+            "questionId": 3,
+            "tag": "Documentation",
+            "pillar": "Organisation",
+            "question": "Does your existing platform support automatic documentation like creation of swagger?",
+            "optionA": "Using",
+            "optionB": "Want to use",
+            "optionC": "Don’t want to use",
+            "toolTip": "API Lifecycle Management involves the planning, design, development, deployment, maintenance, and retirement of APIs throughout their entire lifespan."
+        },
+        {
+            "id": 4,
+            "questionId": 4,
+            "tag": "Api Design",
+            "pillar": "Organisation",
+            "question": "Do you envision your API Management platform to provide UI for API design?",
+           "optionA": "Using",
+            "optionB": "Want to use",
+            "optionC": "Don’t want to use",
+            "toolTip": "The developer portal is a customizable website where API consumers can explore your APIs."
+        },
+        {
+            "id": 5,
+            "questionId": 5,
+            "tag": "Consumer Onboarding",
+            "pillar": "Governance",
+            "question": "How important is it to you to have hassle free onboarding process ?",
+            "optionA": "Very important",
+            "optionB": "Important",
+            "optionC": "Not important",
+            "toolTip": "Consumer onboarding refers to the process of getting new consumers or users of a product or service onboarded and familiarized with its features, functionalities, and usage."
+        },
+        {
+            "id": 6,
+            "questionId": 6,
+            "tag": "Devops",
+            "pillar": "Organisation",
+            "question": "Does your platform support Devops Integration? Or is it possible to deploy APIs on your platform through Devops?",
+            "optionA": "Using",
+            "optionB": "Want to use",
+            "optionC": "Don’t want to use",
+            "toolTip": "DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops) to foster collaboration and streamline the software delivery process. It aims to improve the speed, efficiency, and quality of software development and deployment."
+        },
+        {
+            "id": 7,
+            "questionId": 7,
+            "tag": "Analytics",
+            "pillar": "Organisation",
+            "question": "Does your platform provides Analytical Capabilities to track various parameters across API lifecycle?",
+            "optionA": "Using",
+            "optionB": "Want to use",
+            "optionC": "Don’t want to use",
+            "toolTip": "API Analytics are designed to capture a wide range of analytics data for use by several different teams but the data is typically used for analysis in non-realtime scenarios."
+        },
+        {
+            "id": 8,
+            "questionId": 8,
+            "tag": "Ease of Development",
+            "pillar": "Organisation",
+            "question": "Does your API Management platform provide the ease of development ?",
+            "optionA": "Using",
+            "optionB": "Want to use",
+            "optionC": "Don’t want to use",
+            "toolTip": "API Lifecycle Management involves the planning, design, development, deployment, maintenance, and retirement of APIs throughout their entire lifespan."
+        },
+        {
+            "id": 9,
+            "questionId": 9,
+            "tag": "Monitoring",
+            "pillar": "Governance",
+            "question": "Does your platform support API monitoring , custom dashboards, report generation and metrics?",
+            "optionA": "Using",
+            "optionB": "Want to use",
+            "optionC": "Don’t want to use",
+            "toolTip": "API Monitoring refers to the practice of monitoring Application Programming Interfaces to gain visibility into performance, availability and functional correctness."
+        },
+        {
+            "id": 10,
+            "questionId": 10,
+            "tag": "Logging",
+            "pillar": "Governance",
+            "question": "Are you planning to have API logging feature added in your project?",
+            "optionA": "Using",
+            "optionB": "Want to use",
+            "optionC": "Don’t want to use",
+            "toolTip": "API logging refers to the practice of capturing and recording relevant information and events related to the usage and execution of an Application Programming Interface (API)."
+        },
+		{
+			"id": 11,
+			"questionId": 11,
+			"tag": "Ease of Development",
+			"pillar": "Organisation",
+			"question": "Does your APIM provides policies or configurations to change the behaviour of APIs within least possible time?",
+			"optionA": "Using",
+			"optionB": "Want to use",
+			"optionC": "Don’t want to use",
+			"toolTip": "API Lifecycle Management involves the planning, design, development, deployment, maintenance, and retirement of APIs throughout their entire lifespan."
+		},
+		{
+			"id": 12,
+			"questionId": 12,
+			"tag": "Business Continuity (DR)",
+			"pillar": "Strategy",
+			"question": "Do you want to implement Disaster recovery(DR) in your project?",
+			"optionA": "Using",
+			"optionB": "Want to use",
+			"optionC": "Don’t want to Use",
+			"toolTip": "Disaster recovery refers to the process and strategies put in place to restore and recover an organization's critical IT systems, infrastructure, and data following a disruptive event or disaster."
+		},
+		{
+			"id": 13,
+			"questionId": 13,
+			"tag": "API security (Rate Limit, IP Whitelisting etc...)",
+			"pillar": "Security",
+			"question": "Does your API Management platform support rate-limiting features ?",
+			"optionA": "Using",
+			"optionB": "Want to use",
+			"optionC": "Don’t want to Use",
+			"toolTip": "API Rate Limit refers to a mechanism implemented by API providers to control the number of requests a client can make within a certain timeframe."
+		},
+		{
+			"id": 14,
+			"questionId": 14,
+			"tag": "General",
+			"pillar": "Security",
+			"question": "How important is API security in your project?",
+			"optionA": "Very Important",
+			"optionB": "Important",
+			"optionC": "Not Important",
+			"toolTip": "API security refers to the measures and practices implemented to protect application programming interfaces (APIs) from unauthorized access, data breaches, and other security threats."
+		},
+		{
+			"id": 15,
+			"questionId": 15,
+			"tag": "Authorization",
+			"pillar": "Security",
+			"question": "Does your API Management platform rely on RBAC features for securing/authorizing the apis?",
+			"optionA": "Using",
+			"optionB": "Want to use",
+			"optionC": "Don’t want to Use",
+			"toolTip": " API Management relies on role-based access control (RBAC) to enable fine-grained access management for API Management services and entities (for example, APIs and policies)."
+		},
+		{
+			"id": 16,
+			"questionId": 16,
+			"tag": "Strategy",
+			"pillar": "Monetization",
+			"question": "Do you want to monetize your API?",
+			"optionA": "Using",
+			"optionB": "Want to Use",
+			"optionC": "Don’t want to Use",
+			"toolTip": "API monetization is the process by which businesses create revenue from their application programming interface(API)."
+		},
+		{
+			"id": 17,
+			"questionId": 17,
+			"tag": "Authorization",
+			"pillar": "Security",
+			"question": "Does your API Management platform rely on RBAC platform like Active directory?",
+			"optionA": "Using",
+			"optionB": "Want to use",
+			"optionC": "Don’t want to Use",
+			"toolTip": " API Management relies on role-based access control (RBAC) platforms to store the identity and access management. "
+		},
+		{
+			"id": 18,
+			"questionId": 18,
+			"tag": "Extensibility",
+			"pillar": "Strategy",
+			"question": "Does the API platform contribute to the extensibility of an API be enhanced to accommodate future growth and evolving needs",
+			"optionA": "Using",
+			"optionB": "Want to use",
+			"optionC": "Don’t want to Use",
+			"toolTip": "Implementing effective strategies for managing APIs to ensure seamless integration, maximize developer engagement, and drive business growth."
+		},
+		{
+			"id": 19,
+			"questionId": 19,
+			"tag": "API Culture",
+			"pillar": "Strategy",
+			"question": "Are you using strong API culture within an organization promoting collaboration, innovation, and widespread adoption of APIs",
+			"optionA": "Using",
+			"optionB": "Want to use",
+			"optionC": "Don’t want to Use",
+			"toolTip": "Implementing effective strategies for managing APIs to ensure seamless integration, maximize developer engagement, and drive business growth."
+		},
+		{
+			"id": 20,
+			"questionId": 20,
+			"tag": "API Exposure",
+			"pillar": "Strategy",
+			"question": "Are you using strategies for maximizing the exposure of an API to attract developers, foster community engagement, and encourage widespread adoption?",
+			"optionA": "Using",
+			"optionB": "Want to use",
+			"optionC": "Don’t want to Use",
+			"toolTip": " Implementing effective strategies for managing APIs to ensure seamless integration, maximize developer engagement, and drive business growth."
+		}
+	]
+}

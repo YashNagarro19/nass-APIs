@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String
-from config import Base, engine
+from database import Base
 
 class AssessmentSubmission(Base):
     __tablename__ ="assessment_submission"
@@ -8,5 +8,7 @@ class AssessmentSubmission(Base):
     user_id = Column(Integer)
     question_id = Column(String)
     answer_id = Column(String)
-
-Base.metadata.create_all(engine)
+    answer_value = Column(String)
+    tag = Column(String)
+    pillar = Column(String)
+    detail = Column(String)
