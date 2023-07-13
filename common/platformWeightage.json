@@ -1,0 +1,74 @@
+{
+    "platforms": {
+        "Azure": {
+            "organization": "8",
+            "security": "8",
+            "governance": "8",
+            "strategy": "8",
+            "cost": "8"
+        },
+		"Apigee": {
+            "organization": "7",
+            "security": "8",
+            "governance": "9",
+            "strategy": "7",
+            "cost": "7"
+        },
+        "WSO2": {
+            "organization": "6",
+            "security": "7",
+            "governance": "7",
+            "strategy": "6",
+            "cost": "9"
+        },
+		"Broadcom Layer 7": {
+            "organization": "4",
+            "security": "7",
+            "governance": "5",
+            "strategy": "5",
+            "cost": "5"
+        },
+		"Kong": {
+            "organization": "7",
+            "security": "7",
+            "governance": "7",
+            "strategy": "7",
+            "cost": "9"
+        },
+        "IBM API connect": {
+            "organization": "7",
+            "security": "6",
+            "governance": "5",
+            "strategy": "6",
+            "cost": "7"
+        },
+        "3 scale": {
+            "organization": "6",
+            "security": "5",
+            "governance": "5",
+            "strategy": "5",
+            "cost": "6"
+        },
+        "rapid API": {
+            "organization": "6",
+            "security": "6",
+            "governance": "6",
+            "strategy": "6",
+            "cost": "6"
+        },
+        "mulesoft": {
+            "organization": "5",
+            "security": "6",
+            "governance": "5",
+            "strategy": "5",
+            "cost": "6"
+        },
+        "AWS api gateway": {
+            "organization": "8",
+            "security": "9",
+            "governance": "9",
+            "strategy": "8",
+            "cost": "9"
+        }
+    }
+}

@@ -1,28 +1,9 @@
-from fastapi import FastAPI, Request
-from fastapi.responses import JSONResponse
-from businessLogicGetQuestions import GetQuestions as gq
-from http import HTTPStatus
-import logging
+from fastapi import FastAPI
+from routes.assessmentRoute import router
+# from database import Base, engine
 
 app = FastAPI()
 
-@app.get("/getQuestions", status_code=HTTPStatus.OK.value )
-def getQuestions():
-    try:
-        response = gq.getQuestion()
-        return response
-    except Exception as ex:
-         logging.error("main file exception"+ str(ex))
-         print("main exception" + str(ex))
-         __json_date = str({})
-         raise Exception(HTTPStatus.BAD_REQUEST.value)
+# Base.metadata.create_all(engine)
 
-@app.post("/postQuestions")
-async def postQuestions(request: Request):
-    json = await request.json()
-    print(json)
-    return JSONResponse(content={"status":"success"})
-
-@app.get("/displayResult")
-def getQuestions():
-    return gq.businessLogicGetQuetions()
+app.include_router(router, prefix="/assessment", tags=["assessment"])
